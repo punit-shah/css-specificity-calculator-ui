@@ -1,6 +1,6 @@
 {
   "name": "css-specificity-calculator-ui",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "css-specificity-calculator": "^2.0.0",
