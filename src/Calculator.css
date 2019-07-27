@@ -1,7 +1,7 @@
 .Calculator {
   margin: 0 12%;
   padding: 2rem;
-  background-color: #2e3340;
+  background-color: #434c5e;
   text-align: center;
   font-size: 2rem;
   border-radius: 0.5rem;
@@ -23,7 +23,9 @@
   margin-right: 0.5rem;
   width: calc(100% - 4.5rem);
   border-radius: 0.5rem;
-  border: solid 1px #fff;
+  border: solid 2px #eceff4;
+  background-color: #eceff4;
+  transition: box-shadow 0.25s ease;
   text-align: center;
 }
 
@@ -34,13 +36,14 @@
   width: 4rem;
   text-decoration: none;
   background-color: transparent;
-  color: #fff;
-  border: solid 1px #fff;
+  color: #e5e9f0;
+  border: solid 2px #e5e9f0;
   border-radius: 0.5rem;
   font: inherit;
   cursor: pointer;
   text-align: center;
-  transition: background-color 0.25s ease, color 0.25s ease;
+  transition: background-color 0.25s ease, color 0.25s ease,
+    box-shadow 0.25s ease;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
@@ -48,8 +51,14 @@
 .Calculator-submit:hover,
 .Calculator-submit:focus,
 .Calculator-submit:active {
-  background-color: #fff;
-  color: #2e3340;
+  background-color: #e5e9f0;
+  color: #434c5e;
+}
+
+.Calculator-submit:focus,
+.Calculator-selector-input:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px #88c0d0;
 }
 
 .Calculator-value {
