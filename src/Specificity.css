@@ -1,0 +1,39 @@
+.Specificity {
+  background-color: #4c566a;
+  margin: 2rem 0 0;
+  padding: 1rem;
+  font-size: 3rem;
+  border-radius: 0.5rem;
+}
+
+.Specificity-value {
+  margin: 0;
+}
+
+.Specificity-value > span {
+  margin: 0 0.75rem;
+}
+
+.Specificity-ids {
+  color: #bf616a;
+}
+
+.Specificity-classes {
+  color: #88c0d0;
+}
+
+.Specificity-elements {
+  color: #a3be8c;
+}
+
+.Specificity-text {
+  text-align: left;
+  font-size: 1rem;
+  max-width: 26rem;
+  margin: auto;
+}
+
+.Specificity-text > span {
+  font-size: 2rem;
+  vertical-align: sub;
+}
