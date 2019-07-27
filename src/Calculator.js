@@ -24,6 +24,7 @@ const Calculator = () => {
             type="text"
             value={selector}
             onChange={event => setSelector(event.target.value)}
+            placeholder="enter any css selector"
           />
         </label>
         <input

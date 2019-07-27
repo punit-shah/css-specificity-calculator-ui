@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Specificity.css';
 
 const Specificity = ({ value: [ids, classes, elements] }) => (
@@ -21,5 +22,9 @@ const Specificity = ({ value: [ids, classes, elements] }) => (
     </p>
   </div>
 );
+
+Specificity.propTypes = {
+  value: PropTypes.arrayOf(PropTypes.number),
+};
 
 export default Specificity;
