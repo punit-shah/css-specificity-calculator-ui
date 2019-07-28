@@ -1,12 +1,14 @@
-# CSS specificity calculator UI
+# CSS selector specificity calculator
 
 A tool to help you understand [CSS specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity).
 
-Calculates the specificity of any CSS selector.
+Calculates the specificity of any CSS selector. Uses the [`css-specificity-calculator`](https://www.npmjs.com/package/css-specificity-calculator) JavaScript module.
 
-## Getting started
+Built with React ❤️
 
-Requires Node.js & Yarn.
+## Development
+
+Requires [Node](https://nodejs.org) and [Yarn](https://yarnpkg.com).
 
 - Install dependencies
 
@@ -14,7 +16,7 @@ Requires Node.js & Yarn.
   yarn install
   ```
 
-- Run the app in dev mode
+- Run the app in development mode
 
   ```
   yarn start

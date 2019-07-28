@@ -2885,10 +2885,10 @@ css-selector-tokenizer@^0.7.1:
     fastparse "^1.1.1"
     regexpu-core "^1.0.0"
 
-css-specificity-calculator@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/css-specificity-calculator/-/css-specificity-calculator-2.0.0.tgz#26b8e64980314710455b9a5b4beaa5d4788f252d"
-  integrity sha512-dAt03QfIkBGHVmPbCFPImqMs0eBDQQ7YD+HV44d8wMea8YA070mueyqb1NGa2I3MtGsTKB66jg3iyiY8xqXpfA==
+css-specificity-calculator@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/css-specificity-calculator/-/css-specificity-calculator-2.1.1.tgz#6064b9a2664d3a6d93ed7584140b9fdcc66ee6f4"
+  integrity sha512-346uznIvUsw9+VBVEFiWI2jMVAmv6q+6vz20kDlfQyt2+WsSyP4H17e91nd46ZdJsbcl6n3wWpKuGOC/CgZFJw==
   dependencies:
     css-selector-tokenizer "^0.7.1"
 

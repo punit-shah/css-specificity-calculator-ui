@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://punit-shah.github.io/specificity",
   "dependencies": {
-    "css-specificity-calculator": "^2.0.0",
+    "css-specificity-calculator": "^2.1.1",
     "gh-pages": "^2.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
