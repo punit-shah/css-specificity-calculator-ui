@@ -2,7 +2,7 @@
 
 A tool to help you understand [CSS specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity).
 
-Calculates the specificity of any CSS selector. Uses the [`css-specificity-calculator`](https://www.npmjs.com/package/css-specificity-calculator) JavaScript module.
+Calculates the specificity of any CSS selector. Uses the [`css-specificity-calculator`](https://github.com/punit-shah/css-specificity-calculator) JavaScript module.
 
 Built with React ❤️
 
