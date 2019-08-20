@@ -2,14 +2,14 @@
   "name": "css-specificity-calculator-ui",
   "version": "1.1.0",
   "private": true,
-  "homepage": "https://punit-shah.github.io/specificity",
+  "homepage": "https://specificity.surge.sh",
   "dependencies": {
     "css-specificity-calculator": "^2.1.1",
-    "gh-pages": "^2.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "surge": "^0.21.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "surge build --domain https://specificity.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
