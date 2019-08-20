@@ -11,6 +11,12 @@
 .App-title {
   text-align: center;
   font-weight: normal;
-  font-size: 2rem;
-  margin-top: -2rem;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+@media (min-width: 500px) {
+  .App-title {
+    font-size: 2rem;
+  }
 }

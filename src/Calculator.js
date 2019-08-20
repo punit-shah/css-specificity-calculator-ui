@@ -17,7 +17,7 @@ const Calculator = () => {
           setSpecificity(newSpecificity);
         }}
       >
-        <label>
+        <label className="Calculator-selector">
           <span className="Calculator-selector-label">Selector:</span>
           <input
             className="Calculator-selector-input"
@@ -27,12 +27,13 @@ const Calculator = () => {
             placeholder="enter any css selector"
           />
         </label>
-        <input
+        <button
           className="Calculator-submit"
           type="submit"
-          value="!"
           aria-label="Calculate specificity"
-        />
+        >
+          <span>calculate</span>!
+        </button>
       </form>
 
       <Specificity value={specificity} />

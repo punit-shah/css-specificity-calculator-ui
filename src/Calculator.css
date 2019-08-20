@@ -1,10 +1,15 @@
 .Calculator {
-  margin: 0 12%;
-  padding: 2rem;
+  margin: 0 1rem;
+  padding: 1rem;
   background-color: #434c5e;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   border-radius: 0.5rem;
+}
+
+.Calculator-form {
+  display: flex;
+  flex-direction: column;
 }
 
 .Calculator-selector-label {
@@ -20,8 +25,7 @@
   display: inline-block;
   font: inherit;
   padding: 0.5rem;
-  margin-right: 0.5rem;
-  width: calc(100% - 4.5rem);
+  width: 100%;
   border-radius: 0.5rem;
   border: solid 2px #eceff4;
   background-color: #eceff4;
@@ -32,9 +36,7 @@
 .Calculator-submit {
   display: inline-block;
   padding: 0.5rem;
-  margin: 0;
-  width: 4rem;
-  text-decoration: none;
+  margin: 0.5rem auto;
   background-color: transparent;
   color: #e5e9f0;
   border: solid 2px #e5e9f0;
@@ -67,4 +69,37 @@
   padding: 1rem;
   font-size: 3rem;
   border-radius: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .Calculator {
+    margin: 0 2rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .Calculator {
+    margin: 0 12%;
+    padding: 2rem;
+    font-size: 2rem;
+  }
+
+  .Calculator-form {
+    flex-direction: row;
+  }
+
+  .Calculator-selector {
+    width: calc(100% - 4.5rem);
+    margin-right: 0.5rem;
+  }
+
+  .Calculator-submit {
+    margin: 0;
+    width: 4rem;
+  }
+
+  .Calculator-submit > span {
+    display: none;
+  }
 }
